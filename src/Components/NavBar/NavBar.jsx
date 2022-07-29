@@ -11,7 +11,7 @@ const NavBar = () => {
   const [navId, setNavId] = useState();
 
   return (
-    <div className="relative z-50">
+    <div className="absolute z-50">
       <div className="md:w-3/5 w-[90%] mx-auto flex md:justify-center justify-between md:gap-[20%] min-h-[100px] items-center text-2xl  text-white md:fixed nav">
         <div className="md:flex gap-8 items-center">
           <a href="#Home" className="hover:text-yellow-300">
