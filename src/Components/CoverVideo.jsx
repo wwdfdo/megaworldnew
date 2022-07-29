@@ -11,11 +11,21 @@ const CoverVideo = () => {
       <div className="absolute top-0 bottom-0 right-0 left-0 z-[1] bg-[#234506a8]"></div>
       <NavBar />
       <div className="absolute top-0 bottom-0 right-0 left-0 z-[5] flex justify-center items-center flex-col gap-16">
-        <img src={megaworldImg} alt="" data-scroll data-scroll-speed="1" />
-        <h2 className="text-3xl text-white" data-scroll data-scroll-speed="1">
+        <img
+          src={megaworldImg}
+          alt=""
+          data-scroll
+          data-scroll-speed="1"
+          className="absolute top-[15%]"
+        />
+        <h2
+          className="text-3xl text-white absolute top-[35%]"
+          data-scroll
+          data-scroll-speed="1"
+        >
           The Metaverse
         </h2>
-        <div className="flex justify-center items-center md:gap-16 gap-8 md:text-3xl text-xl md:w-full w-[95%]">
+        <div className="flex justify-center items-center md:gap-16 gap-8 md:text-3xl text-xl md:w-full w-[95%] absolute top-[50%]">
           <h2 className="w-[100px] md:w-[150px] text-center">VIRTUAL CITY</h2>
           <img src={cross} className="w-[80px] text-center" alt="" />
           <h2 className="w-[100px] md:w-[150px] text-center">REAL ECONOMICS</h2>
