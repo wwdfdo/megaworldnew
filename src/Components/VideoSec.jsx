@@ -38,7 +38,7 @@ const VideoSec = () => {
       <img
         src={metal}
         alt=""
-        className="absolute right-[50%] -bottom-5  hidden md:block"
+        className="absolute right-[50%] -bottom-5  hidden md:block py-5"
         data-scroll
         data-scroll-delay="0.04"
         data-scroll-speed="4"
