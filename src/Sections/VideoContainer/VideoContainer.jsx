@@ -12,7 +12,7 @@ import VideoSec from "../../Components/VideoSec";
 
 const VideoContainer = () => {
   return (
-    <section className="bg-green-500 min-h-[100vh] flex flex-col gap-10 h-auto py-40">
+    <section className="bg-green-500 min-h-[100vh] flex flex-col gap-10 h-auto py-20">
       <MetaverseAssests />
       <VideoSec />
     </section>

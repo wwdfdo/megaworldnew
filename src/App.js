@@ -6,11 +6,12 @@ import { useRef } from "react";
 import gsap from "gsap";
 
 import { AnimatePresence } from "framer-motion";
-import Home from "./Sections/Home";
-import VideoContainer from "./Sections/VideoContainer/VideoContainer";
+import Viewport from "./Sections/Viewport/Viewport";
+// import Home from "./Sections/Home";
+// import VideoContainer from "./Sections/VideoContainer/VideoContainer";
 // import FloatingSection from "./Sections/FloatingSection";
-import Explore from "./Components/Explore";
-import Slider from "./Sections/Slider";
+// import Explore from "./Components/Explore";
+// import Slider from "./Sections/Slider";
 
 // import Slider from "./Sections/Slider";
 
@@ -36,11 +37,12 @@ function App() {
         <ScrollTriggerProxy />
         <AnimatePresence>
           <main className="App" data-scroll-container ref={containerRef}>
-            <Home />
+            {/* <Home />
             <VideoContainer />
             <Explore />
             <Explore />
-            <Slider />
+            <Slider /> */}
+            <Viewport />
           </main>
         </AnimatePresence>
       </LocomotiveScrollProvider>
