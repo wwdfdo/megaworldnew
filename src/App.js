@@ -7,6 +7,7 @@ import gsap from "gsap";
 
 import { AnimatePresence } from "framer-motion";
 import Viewport from "./Sections/Viewport/Viewport";
+import TextImage from "./Sections/TextImage/TextImage";
 // import Home from "./Sections/Home";
 // import VideoContainer from "./Sections/VideoContainer/VideoContainer";
 // import FloatingSection from "./Sections/FloatingSection";
@@ -43,6 +44,7 @@ function App() {
             <Explore />
             <Slider /> */}
             <Viewport />
+            <TextImage />
           </main>
         </AnimatePresence>
       </LocomotiveScrollProvider>

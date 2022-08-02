@@ -5,7 +5,7 @@ import ViewPortVideo from "../../Components/ViewPortVideo/ViewPortVideo";
 
 const Viewport = () => {
   return (
-    <section className=" relative min-h-[200vh] overflow-hidden">
+    <section className=" relative min-h-[100vh] overflow-hidden">
       <ViewPortVideo />
       {/* <Logo /> */}
       <MenuBar />
