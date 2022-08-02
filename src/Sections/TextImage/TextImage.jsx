@@ -10,9 +10,9 @@ import nails from "../../Assets/images/nails.png";
 
 const TextImage = () => {
   return (
-    <section className="relative min-h-[100vh]  w-full mx-auto flex flex-col  py-40 bg-OpenPlatform object-cover  ">
+    <section className="relative min-h-[100vh]  w-full mx-auto flex flex-col bg-OpenPlatform bg-cover bg-no-repeat py-40  ">
       <div className="absolute top-0 bottom-0 right-0 left-0 z-[1] bg-[#234506a8]"></div>
-      <div className="w-[80vw] mx-auto flex justify-between items-center pb-40">
+      <div className="w-[80vw] mx-auto flex justify-between items-center py-20">
         <div className="w-[50%] relative flex justify-start z-[5]">
           <img src={img1} className=" h-auto" alt="" />
           <img
@@ -25,7 +25,7 @@ const TextImage = () => {
           <img
             src={beer}
             alt=""
-            className="absolute right-0 -bottom-20"
+            className="absolute right-10 -bottom-24"
             data-scroll
             data-scroll-speed="-2"
           />
@@ -60,9 +60,8 @@ const TextImage = () => {
           <p className="text-3xl font-bold">Just take a stroll.</p>
         </div>
       </div>
-
-      <div className="w-[80vw] mx-auto flex justify-between items-center">
-        <div className="w-[50%] relative z-[5] flex flex-col justify-center items-start gap-8 ">
+      <div className="w-[80vw] mx-auto flex justify-between items-center  py-20">
+        <div className="w-[50%] relative z-[5] flex flex-col justify-start gap-8">
           <h1
             className="text-8xl font-semibold  z-[5]"
             data-scroll
@@ -83,27 +82,26 @@ const TextImage = () => {
           </ul>
           <p className="text-3xl font-bold">Just take a stroll.</p>
         </div>
-
-        <div className="w-[50%] relative flex justify-center z-[5]">
-          <img src={craft} className=" h-auto" alt="" />
+        <div className="w-[50%] relative flex justify-start z-[5]">
+          <img src={craft} alt="" />
           <img
             src={nails}
-            className="absolute right-50 -top-20 "
             alt=""
+            className="absolute -top-10 left-[50%]"
             data-scroll
             data-scroll-speed="-2"
           />
           <img
             src={glue}
             alt=""
-            className="absolute bottom-0 right-0"
+            className="absolute top-[30%] -right-20"
             data-scroll
             data-scroll-speed="-2"
           />
           <img
             src={textile}
             alt=""
-            className="absolute bottom-0 left-0"
+            className="absolute -bottom-20 -left-20"
             data-scroll
             data-scroll-speed="-2"
           />
